@@ -1,0 +1,106 @@
+body{
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+}
+h1, h2, h3{
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+header, footer{
+    text-align: center;
+    color: white;
+    background-color: #263238;
+}
+header{
+    padding: 3em 0;
+}
+footer{
+    padding: 1em 0;
+}
+header h1,
+footer p{
+    margin: 0;
+}
+header a:link{
+    color: white;
+}
+header h1 span{
+    display: inline-block;
+    padding:0.1em 0.5em;
+    border: 2px solid #FFC107;
+}
+header .contact span{
+    display: inline-block;
+    padding: 0 8px;
+    border-right: 1px solid white;
+}
+header .contact span:last-child{
+    border-right: none;
+}
+#container{
+    padding: 2em 0;
+    overflow: hidden;
+}
+#container h2{
+    color: #FFC107;
+    border-bottom: 2px solid #FFC107;
+}
+#container .col{
+    float: left;
+    width: 50%;
+    padding: 2em;
+    box-sizing: border-box;
+}
+#container .col.right{
+    border-left: 2px solid #263238; 
+}
+table{
+    width: 100%;
+}
+table h3{
+    margin: 0;
+}
+table tr td{
+    padding: 8px 0;
+}
+table tr td:first-child{
+    padding-right: 2em;
+}
+table:not(.interests) tr td:nth-child(2){
+    width: 100%;
+}
+table.interests tr td{
+    padding: 0 2em;
+    text-align: center;
+}
+.progress,
+.progress .progress-inner{
+    width: 100%;
+    height: 4px;
+}
+.progress{
+    background-color: rgba(0,0,0,0.3);
+}
+.progress .progress-inner{
+    width: 50%;
+    background-color: black;
+}
+.progress .progress-inner.html{
+    width: 86%
+}
+.progress .progress-inner.css{
+    width: 60%
+}
+.progress .progress-inner.js{
+    width: 73%;
+}
+.progress .progress-inner.eng{
+    width: 32%;
+}
+.progress .progress-inner.chi{
+    width: 1%;
+}
+.progress .progress-inner.ur{
+    width: 90%;
+}
